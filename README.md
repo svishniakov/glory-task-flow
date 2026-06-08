@@ -116,7 +116,7 @@ https://github.com/svishniakov/glory-task-flow
 1. Установи skill в глобальную папку skills текущего AI-агента, а не в папку проекта.
 2. Для Codex используй путь `~/.codex/skills/glory-taskflow`.
 3. Если работаешь с Claude Code или другим агентом, используй его глобальную папку skills.
-4. Скопируй файлы репозитория как есть: `SKILL.md`, `agents/`, `references/`, `README.md`.
+4. Скопируй файлы репозитория как есть: `SKILL.md`, `references/`, `README.md`.
 5. Не добавляй внешние инструменты, токены, cookies, API keys или локальные machine-specific файлы.
 6. После установки проверь, что skill доступен по `$glory-taskflow`.
 7. Если есть валидатор skills, запусти его.
