@@ -1,0 +1,6 @@
+interface:
+  display_name: "Glory Taskflow"
+  short_description: "Jira-ready task drafting and review"
+  default_prompt: "Use $glory-taskflow to prepare a Jira-ready task description."
+policy:
+  allow_implicit_invocation: false
