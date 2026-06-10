@@ -13,7 +13,7 @@ Use this skill only after explicit invocation by name or `$glory-taskflow`. Do n
 
 Canonical source: Confluence page `Payments-003: Подход к формированию описаний задач`, page ID `2079162374`, site `glorybet.atlassian.net`.
 
-If the user asks to audit or update this skill against the source page, use the current canonical source from the repository or ask the user for page text/export. Do not guess source changes.
+If the user asks to audit or update this skill against the source page, fetch the current canonical page directly from Confluence or stop and report that access is unavailable. Do not guess source changes and do not treat local copies as source of truth.
 
 For detailed source prompt and approach, load `references/task-description-prompt.md` when auditing or editing skill behavior.
 
@@ -54,6 +54,10 @@ Never invent:
 - agreements between teams
 
 If using a specific document, code, requirements, or context, rely only on provided or fetched data. If external information may be stale, say it needs verification or use the current source if available. Mark assumptions explicitly as `Assumption: ...`.
+
+Use the full intake flow only when it adds value: unclear scope, decomposition, research separation, or grooming preparation. For small obvious tasks, skip extra steps and return the compact Jira-ready result directly.
+
+AI output is advisory, not final truth. The author and team still review clarity, scope, complexity, and needed changes before work.
 
 ## How To Work
 
