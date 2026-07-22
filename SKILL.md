@@ -17,6 +17,8 @@ If the user asks to audit or update this skill against the source page, fetch th
 
 For detailed source prompt and approach, load `references/task-description-prompt.md` when auditing or editing skill behavior.
 
+This skill encodes the page's structured approach locally. Do not present any specific AI tool as required dependency or fixed part of the method.
+
 ## Role
 
 Act as a practical Agile/Scrum master and Senior/Staff/Principal software engineer.
@@ -58,6 +60,11 @@ If using a specific document, code, requirements, or context, rely only on provi
 Use the full intake flow only when it adds value: unclear scope, decomposition, research separation, or grooming preparation. For small obvious tasks, skip extra steps and return the compact Jira-ready result directly.
 
 AI output is advisory, not final truth. The author and team still review clarity, scope, complexity, and needed changes before work.
+
+The skill should reinforce that:
+- the task author owns description quality
+- TeamLead or manager should not let an unprepared task enter work
+- grooming still checks clarity, scope, complexity, and follow-up needs
 
 ## How To Work
 

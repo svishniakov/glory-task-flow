@@ -2,7 +2,9 @@
 
 Source: Confluence page `Payments-003: Подход к формированию описаний задач`, page ID `2079162374`, status `Согласован`, date `14.05.2026`.
 
-Last source sync: page version `10`, updated `2026-05-14T12:56:42.328Z`, status `current`.
+Last source fetch: page status `current`, last modified `May 14, 2026`, page body date `14.05.2026`.
+
+Page version was not exposed by the current Confluence MCP response. Do not infer it from local history.
 
 Use this reference only when editing or auditing the skill behavior. Normal skill execution should rely on `SKILL.md`.
 
